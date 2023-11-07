@@ -4,7 +4,7 @@ import ExampleComponent from "./ExampleComponent";
 
 // Add your code own within the return statement
 function App() {
-  return (
+  return ( // jsx goes here!
     <div className="App">
       <h1>{format(new Date(), "MMMM do yyyy, h:mm:ss a")}</h1>
       <p className="App-intro">
